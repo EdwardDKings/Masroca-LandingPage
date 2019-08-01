@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Font AWESOME -->
+  <script src="https://kit.fontawesome.com/bb719b6e67.js"></script>
+  <!-- Precompiled BOOTSTRAP -->
+  <link rel="stylesheet" href="css/bootstrap.css">  <!-- Personal Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Roca Máscota</title>
+</head>
+<body id="home" data-spy="scroll" data-target="#main-nav">
+  <nav id='main-nav' class="navbar navbar-expand-md navbar-light fixed-top py-4">
+    <div class="container">
+      <a href="#home" class="navbar-brand">
+        <img src="img/stone-only.png" width='50' height='50' alt="">
+      </a>
+      <h3 class="d-inline align-middle">Másroca</h3>
+      <button class="navbar-toggler" data-toggle='collapse' data-target='#navbar-collapse'>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbar-collapse" class='collapse navbar-collapse'>
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a href="#home" class="nav-link">Tope</a>
+           </li>
+           <li class="nav-item">
+             <a href="#boxes" class="nav-link">Caracteristicas</a>
+           </li>
+           <li class="nav-item">
+             <a href="#authors" class="nav-link">Testimonios</a>
+           </li>
+           <li class="nav-item">
+             <a href="#contact" class="nav-link">Contacto</a>
+           </li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE -->
+  <section id="showcase" class="py-5">
+    <div class="primary-overlay text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center d-flex flex-column justify-content-center">
+            <h1 class="display-2 pt-2 ">¡Tu Nueva <strong>Mascota</strong> Llegó!</h1>
+            <p class="lead">Brutal, wow, increíble, como puede ser, descomunal, pasao!</p>
+            <img id='resp-Img' src="img/stone-only-face.png" alt="" class="img-fluid d-block d-lg-none">
+            <a href="" class="btn btn-outline-secondary btn-lg text-white d-none d-lg-inline">
+              <i class="fas fa-arrow-right"></i> Aprende Más
+            </a>
+          </div>
+          <div class="col-md-6">
+            <img src="img/Masroca.png" alt="" class="img-fluid d-none d-lg-block">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTERS Section -->
+  <section id="newsletter" class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="col text-center">
+            <h5 >Sigue la roca y mantente al tanto de las actualizaciones más recientes. (No SPAM)</h5>
+        </div>
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control form-control-lg mb-resp" placeholder="Ingrese Nombre">
+        </div>
+        <div class="col-md-4">
+            <input type="email" class="form-control form-control-lg mb-resp" placeholder="Ingrese Correo Electrónico">
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-danger btn-lg btn-block ">
+            <i class="far fa-envelope-open"></i> Suscríbete
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMENT BOXES -->
+  <section id="boxes" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center border-danger mb-resp">
+            <div class="card-body">
+              <h3 class="text-danger">Más Eficiente</h3>
+              <p class="text-muted">Brutal, wow, increíble, como puede pasao, pa’ lante, afuego, gufiao!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-danger text-white mb-resp">
+            <div class="card-body">
+              <h3>Más Leal</h3>
+              <p>Brutal, wow, increíble, como puede ser descomunal gufiao!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center border-danger mb-resp">
+            <div class="card-body">
+              <h3 class="text-danger">Más Portatil</h3>
+              <p class="text-muted">Brutal, wow, increíble, como puede pasao, pa’ lante, afuego, gufiao!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-danger text-white">
+            <div class="card-body">
+              <h3>Más Pesada</h3>
+              <p>Brutal, wow, increíble, como puede ser descomunal gufiao!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / WHY Section -->
+  <section id="about" class='py-5 text-center bg-light'>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="text-danger pb-3">¿Para que una Roca Mascota?</h1>
+            <p class="lead pb-3">
+              Contra propuesta; ¿Porque no?
+            </p>
+          </div>
+          <!-- ACCORDION -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href='#collapse1' data-toggle='collapse' data-parent='#accordion'>
+                    <i class="fas fa-arrow-circle-down"></i> No hay desechos para limpiar
+                  </div>
+                </h5>
+              </div>
+              <div id="collapse1" class="collapse show">
+                <div class="card-body">
+                  <p>Brutal, que tu dicen, el cangri, Daddy Yankee el mejor, wow, increíble, como puede ser, descomunal, pasao, pa’ lante, intenso afuego, gufiao!</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href='#collapse2' data-toggle='collapse' data-parent='#accordion'>
+                    <i class="fas fa-arrow-circle-down"></i> No hay que alimentarla
+                  </div>
+                </h5>
+              </div>
+              <div id="collapse2" class="collapse">
+                <div class="card-body">
+                  <p>Brutal, que tu dicen, el cangri, Daddy Yankee el mejor, wow, increíble, como puede ser, descomunal, pasao, pa’ lante, intenso afuego, gufiao! Brutal, que tu dicen, el cangri, Daddy Yankee el mejor, wow, increíble, como puede ser, descomunal, pasao, pa’ lante, intenso afuego, gufiao! Brutal, que tu dicen, el cangri, Daddy Yankee el mejor, wow, increíble, como puede ser, descomunal, pasao, pa’ lante, intenso afuego, gufiao!</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href='#collapse3' data-toggle='collapse' data-parent='#accordion'>
+                    <i class="fas fa-arrow-circle-down"></i> No juzga tus malas decisiones
+                  </div>
+                </h5>
+              </div>
+              <div id="collapse3" class="collapse">
+                <div class="card-body">
+                  <p>Brutal, que tu dicen, el cangri, Daddy Yankee el mejor, wow, increíble, como puede ser, descomunal, pasao, pa’ lante, intenso afuego, gufiao!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="authors" class="py-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="text-danger pb-3">Propietarios Satisfechos</h1>
+            <p class="lead">
+                Wow, increíble, como puede ser, descomunal, pasao, pa’ lante, intenso.            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/port1.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Anita</h3>
+              <h5 class="text-muted">Modelo</h5>
+              <p>“Me gusta que la piedra siempre piensa que me veo bien. ¡Bueno, nunca ha dicho que me veo mal!”</p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href='http://facebook.com'>
+                    <i class="fab fa-facebook-f text-warning"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                    <a href='http://instagram.com'>
+                      <i class="fab fa-instagram text-danger"></i>
+                    </a>
+                </div>
+                <div class="p-4">
+                    <a href='http://twitter.com'>
+                      <i class="fab fa-twitter text-warning"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/port2.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>José</h3>
+              <h5 class="text-muted">Viajero</h5>
+              <p>"Todos dicen que soy 'denso como una piedra. Será porque estoy bien cortao y duro como roca?”</p>
+              <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href='http://facebook.com'>
+                      <i class="fab fa-facebook-f text-warning"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                      <a href='http://instagram.com'>
+                        <i class="fab fa-instagram text-danger"></i>
+                      </a>
+                  </div>
+                  <div class="p-4">
+                      <a href='http://twitter.com'>
+                        <i class="fab fa-twitter text-warning"></i>
+                      </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/port3.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Stella Lunaris Exotique</h3>
+              <h5 class="text-muted">Creatura Universal</h5>
+              <p>“La calma de la piedra me enseño sobre un estado de Zen que nunca había alcanzado. Todos somos la piedra.”</p>
+              <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href='http://facebook.com'>
+                      <i class="fab fa-facebook-f text-warning"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                      <a href='http://instagram.com'>
+                        <i class="fab fa-instagram text-danger"></i>
+                      </a>
+                  </div>
+                  <div class="p-4">
+                      <a href='http://twitter.com'>
+                        <i class="fab fa-twitter text-warning"></i>
+                      </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/port4.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Un Mono</h3>
+              <h5 class="text-muted">Mono</h5>
+              <p>(Interpretación)<br/> “Mi familia lleva usando rocas por generaciones. Su uso para romper cocos es legítimo, 10/10.”</p>
+              <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href='http://facebook.com'>
+                      <i class="fab fa-facebook-f text-warning"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                      <a href='http://instagram.com'>
+                        <i class="fas fa-tree text-danger"></i>
+                      </a>
+                  </div>
+                  <div class="p-4">
+                      <a href='http://twitter.com'>
+                        <i class="fas fa-apple-alt text-warning"></i>
+                      </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <h3>Lanza la Primera Roca</h3>
+          <p class="lead">
+              Brutal, que tu dicen, el cangri, Daddy Yankee el mejor, wow.          </p>
+          <form action="">
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class='input-group-text'>
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder='Nombre'>
+            </div>
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class='input-group-text'>
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+              <input type="email" class="form-control" placeholder='Correo Electrónico'>
+            </div>
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class='input-group-text'>
+                  <i class="fas fa-pencil-alt"></i>
+                </span>
+              </div>
+              <textarea type="email" class="form-control" rows='5' placeholder='Mensaje'></textarea>
+            </div>
+            <input class='btn btn-danger btn-block btn-lg' type="submit" value='Enviar'>
+          </form>
+        </div>
+        <div class="col-lg-3 d-flex">
+          <img src="img/stone-only.png" alt="" class="img-fluid m-auto">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="py-5 bg-warning text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col ml-auto">
+          <p class="lead">
+            Copyright &copy; <span id="year"></span>
+          </p>
+          <p class='small-text'> Photos from Pexel, Ana Francisconi, Peter Döpper, Eneida Nieves, 3Motional,  Creating Hill, Oleksandr Pidvalnyi, Pixabay. Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+  
+
+  <!-- jQuery/Popper/Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  <!-- PERSONAL Scripts -->
+  <script>
+    // Get the CURRENT YEAR for the copyright
+    $('#year').text(new Date().getFullYear());
+
+
+    // Init Scrollspy
+    $('body').scrollspy({ target: '#main-nav' });
+
+    // Sticky menu background
+    window.addEventListener("scroll", function() {
+      if (window.scrollY > 150) {
+        document.querySelector("#main-nav").style.opacity = 0.95;
+      } else {
+        document.querySelector("#main-nav").style.opacity = 1;
+      }
+    });
+
+    let offsetAmount = 100;
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top - offsetAmount
+        }, 800, function () {
+
+          window.location.hash = hash - offsetAmount;
+        });
+      }
+    });
+  </script>
+</body>
+</html>
